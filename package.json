@@ -1,0 +1,22 @@
+{
+  "name": "makeup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:test": "cypress run --headed --browser chrome --env allure=true --reporter mocha-allure-reporter",
+    "allure report": "allure generate allure-results --clean -o allure-report"
+  },
+  "author": "Mukhamedshyna Anastasiia",
+  "license": "ISC",
+  "dependencies": {
+    "allure-commandline": "^2.24.1",
+    "cypress": "^13.6.0",
+    "cypress-mochawesome-reporter": "^3.7.0",
+    "mocha-allure-reporter": "^1.4.0"
+  },
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.0"
+  }
+}

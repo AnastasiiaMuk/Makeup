@@ -1,0 +1,14 @@
+{
+    "baseUrl":"https://makeup.com.ua/",
+    "homeUrl":"https://makeup.com.ua/",
+    "category1":"Парфюмерия",
+    "category2":"Волосы",
+    "product1Title":"Chanel Coco Mademoiselle",
+    "product2Title":"Универсальное масло для волос",
+    "minPrice":5000,
+    "maxPrice":9000,
+    "product1Price":5600,
+    "product2Price":1799,
+    "searchProduct1":"13PERFUMES",
+    "searchProduct2":"Chanel"
+}
